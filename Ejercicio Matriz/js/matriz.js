@@ -46,9 +46,7 @@ function deshabilitar(celdaDeshabilitar) {
 
         celdasDeshabilitadas++;
     } else {
-        const alerta_limite_celdas = document.getElementById('alerta_limite_celdas');
-        alerta_limite_celdas.style.display= "block";
-        console.log("Lo siento, ya no puedes bloquear más botones");
+        console.log("No se puede bloquear más botones");
     }
 }
 
