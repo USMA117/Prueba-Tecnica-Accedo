@@ -1,0 +1,11 @@
+.tabla{
+    width: 500px;
+    height: 30px;
+    border: solid 2px black;
+}
+
+.celda_seleccionada{
+    background-color: rgb(87, 83, 83);
+    border: 1px solid black;
+    pointer-events: none;
+}
