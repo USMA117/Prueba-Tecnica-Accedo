@@ -9,18 +9,18 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     </head>
     <body>
-        <header class="bg-dark text-white fw-bold text-center fs-1 p-2">Traductor de codígo morse</header>
+        <header class="bg-dark text-white fw-bold text-center fs-2 p-2">Traductor de codígo morse</header>
         <div class="container">
-            <div class="row justify-content-center col-10">
+            <div class="row justify-content-center mx-auto col-10">
                 <div class="m-3 col-12">
-                    <label for="textarea_mensaje" class="form-label fs-2 fw-bold">Ingrese el mensaje...</label>
-                    <textarea class="form-control fs-3 fw-bold" id="textarea_mensaje" rows="5"></textarea>
+                    <label for="textarea_mensaje" class="form-label fs-3 fw-bold">Ingrese un mensaje...</label>
+                    <textarea class="form-control fs-4 fw-bold" id="textarea_mensaje" rows="5"></textarea>
                 </div>
                 <div class="col-12 text-center">
-                    <div class="col-4 btn btn-outline-dark fw-bold fs-4 m-1" id="btn_convertir_morse">Convertir a morse</div>
-                    <div class="col-4 btn btn-outline-dark fw-bold fs-4 m-1" id="btn_traducir_morse">Traducir de morse</div>
+                    <div class="col-4 btn btn-outline-dark fw-bold fs-5 m-1" id="btn_convertir_morse">Convertir a morse</div>
+                    <div class="col-4 btn btn-outline-dark fw-bold fs-5 m-1" id="btn_traducir_morse">Traducir de morse</div>
                 </div>
-                <div class="col-12 bg-dark text-white rounded mt-3 px-3" id="contenedor_traduccion" style="display: none;">
+                <div class="col-12 bg-dark text-white rounded mb-3 mt-3 px-3" id="contenedor_traduccion" style="display: none;">
                     <p class="fw-bold fs-4" id="traduccion"></p>
                     <i class="fa-regular fa-clipboard" id="icono_clipboard"></i>
                     
